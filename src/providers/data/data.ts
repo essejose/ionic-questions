@@ -15,8 +15,9 @@ export class DataProvider {
 
   load(){
     
-           if(this.data){
-               return Promise.resolve(this.data);
+           if(this.data){ 
+               console.log(this.data); 
+               return Promise.resolve(this.data.questions);
            } 
            return new Promise(resolve => {
     

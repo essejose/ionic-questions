@@ -1,0 +1,56 @@
+ 
+<ion-header>
+  <ion-navbar>
+    
+
+    <ion-buttons right>
+        <button button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+      </button>
+      </ion-buttons>
+
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-list *ngFor="let modulo of modulos;">
+
+      <ion-item-divider class="divider-movies">
+          {{modulo.titulo}}
+        </ion-item-divider>
+
+      <div *ngFor="let movie of modulo.movies;">
+        
+          <button ion-item  (click)="goToMoviesDetail()">
+              <h2>{{movie.title}}</h2>
+              <p>{{movie.description}}</p>
+
+
+            <ion-thumbnail item-start>
+                <img src="http://placehold.it/300x200"/>
+            </ion-thumbnail> 
+
+            
+              
+          </button>
+          
+          <div class="container-questions">
+
+         
+          <button ion-item   *ngFor="let question of movie.questions;"  (click)="goToQuizPage()" >
+            <ion-icon ios="ios-list" md="md-list" item-start></ion-icon>  
+            {{question.title}}
+            <p>{{movie.description}}</p>
+          </button>
+        </div>
+      </div>
+    
+  </ion-list>
+
+ 
+
+
+
+</ion-content>

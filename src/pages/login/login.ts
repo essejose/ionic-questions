@@ -28,7 +28,7 @@ export class LoginPage {
     this.showLoading()
     this.auth.login(this.registerCredentials).subscribe(allowed => {
       if (allowed) {        
-        this.nav.setRoot('ListMoviesPage');
+        this.nav.setRoot('MoviesListPage');
       } else {
         this.showError("Access Denied");
       }

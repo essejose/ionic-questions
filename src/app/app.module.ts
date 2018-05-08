@@ -18,11 +18,14 @@ import { DataProvider } from '../providers/data/data';
 import { ComponentsModule } from '../components/components.module';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { QuizPageModule } from '../pages/quiz/quiz.module'
 import { LoginPageModule } from '../pages/login/login.module';
 import { RegisterPageModule } from '../pages/register/register.module';
-import { QuizPageModule } from '../pages/quiz/quiz.module'
-import { ListMoviesPageModule } from '../pages/list-movies/list-movies.module'
+
+import { MoviesListPageModule } from '../pages/movies-list/movies-list.module'
+import { MoviesDetailPageModule } from '../pages/movies-detail/movies-detail.module'
 import { AuthServiceProvider } from '../providers/auth-service/auth-service';
+ 
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
@@ -31,16 +34,16 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
+    HomePage
     
   ], 
-  imports: [
-
+  imports: [  
     ComponentsModule,
     LoginPageModule,
     RegisterPageModule,
-    QuizPageModule,
-    ListMoviesPageModule,
+    QuizPageModule, 
+    MoviesListPageModule,
+    MoviesDetailPageModule,
     BrowserModule,
     HttpClientModule,
     HttpModule,  
@@ -61,7 +64,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,  
+    HomePage
      
   ],
   providers: [
@@ -70,6 +73,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     DataProvider,
     AuthServiceProvider,
+   
  
   ]
 })
