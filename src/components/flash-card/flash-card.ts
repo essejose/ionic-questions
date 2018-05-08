@@ -15,7 +15,7 @@ export class FlashCardComponent {
   @Input('isFlipped') flipCard: boolean;
   
    constructor() {
-  
+   
    }
 
 }

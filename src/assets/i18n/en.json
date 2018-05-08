@@ -1,0 +1,97 @@
+{
+    
+    "PAGE_PERFIL":{
+        "PAGE_TITLE":"Profile",
+        "LOGOUT":{
+            "TITLE":"Exit",
+            "MSG":{
+                "TITLE":"Do you want to quit?",
+                "YES":"Yes",
+                "NO":"No"
+            }
+        },
+        "USER_DETAIL":{
+            "TITLE_ACTION":"Choose which of your pillars you wish to donate to the star",
+            "TITLE_SELECT_PILAR":"Select the donation pillar",            
+            "SERVE_PATIENTS":"Serve Patients",
+            "EMPOWERING_PEOPLE":"Empowering People",
+            "INNOVATE_IN_SOLUTIONS":"Innovate in Solutions",
+            "ACT_WITH_INTEGRITY":"Act with Integrity"
+        },
+        "BUTTONS":{
+            "BTN_DONATE":"To donate",
+            "BTN_RANKING":"Ranking",
+            "BTN_CANCEL":"Cancel",
+            "BTN_CONTINUE":"Continue",
+            "BTN_OK":"OK"
+        },
+        "LOADING_MSG":{
+            "LOAD_INFO":"Loading information"
+        },
+        
+        "INFO_MSG":{
+            "TITLE_ERROR":"Erro :(",
+            "SUB_TITLE_ERROR":"You must be logged",
+            "CHANGE_LANGUAGE":{
+                "TITLE":"Change Language"
+            }
+            
+        }
+    },
+
+    "PAGE_HOME":{
+        "PAGE_TITLE":"",
+        "LABEL_ENTER":"Email",
+        "LABEL_PASSWORD":"Password",
+        "BTN_ESQUECI_SENHA":"I forgot my password",
+        "BTN_ENTRAR":"log in"
+    },
+    "PAGE_RANKING":{
+        "PAGE_TITLE":"Rank",
+        "LABEL_BUSCA":"Search"
+
+    },
+    "PAGE_DOAR_ESTRELA":{
+        "PAGE_TITLE":"To donate",
+        "LABEL_BUSCA":"search",
+        "LABEL_ESCOLHA":"Choose the Pillar",
+        "MSG_DOAR":"Tell us why the star",
+        "PAGE_SUBTITLE":{
+            "TITLE_1":"Our Patients,",
+            "TITLE_2":"Our Star Guide"
+        },
+        "INFO_ERROR":{
+            "ERROR_SERVIDOR":{
+                "TITLE":"Oops!",
+                "BODY":"There was an error submitting your star, please try again.",
+                "BTN":"I understood "
+            },
+            "ERROR_MSG":{
+                "TITLE":"Oops!",
+                "BODY":"You must fill out a message",    
+                "BTN":"I understood "
+            }
+            
+        },
+        "INFO_SUCESSO":{
+            "TITLE":"Success",
+            "BODY":"Star successfully sent",
+            "BTN":"I understood"
+        },
+        "INFO_PILAR":{
+            "SERVE_PATIENTS":"It is putting patients at the center of our decisions. It is seeking to understand each patient's journey, helping him to find answers through transformative therapies that change their lives.",
+            "EMPOWERING_PEOPLE":"It is to believe, to value and to respect. And promote the diversity of people and ideas. It is multifunctional collaboration and turn errors into an opportunity to learn and improve.",
+            "INNOVATE_IN_SOLUTIONS":"Is to have discipline and focus to seek creative solutions in all aspects of work.It is to calculate risks and encourage experimentation. It listens to various opinions and embrace new ideas",
+            "ACT_WITH_INTEGRITY":"It's doing things the right way. Respecting compliance and quality standards in everything we do. It is to be responsible for the other and to build a relationship of trust and credibility with everyone."
+        }
+    },
+    "PAGE_ESTRELA_RECEBIDA":{
+        "PAGE_TITLE":"Star Received",
+        "LABEL_SEM_ESTRELAS":" No Notifications :("
+    }
+
+}
+ 
+
+ 
+

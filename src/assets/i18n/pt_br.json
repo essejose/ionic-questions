@@ -1,0 +1,97 @@
+{
+  
+    "PAGE_PERFIL":{
+        "PAGE_TITLE":"Perfil",
+        "LOGOUT":{
+            "TITLE":"Sair",
+            "MSG":{
+                "TITLE":"Você Deseja sair?",
+                "YES":"Sim",
+                "NO":"Não"
+            }
+        },
+    
+        "USER_DETAIL":{
+            "TITLE_ACTION":"Escolha de qual dos seus pilares deseja doar a estrela",
+            "TITLE_SELECT_PILAR":"Selecione o pilar para doação",
+            "SERVE_PATIENTS":"Servir Pacientes",
+            "EMPOWERING_PEOPLE":"Empoderar Pessoas",
+            "INNOVATE_IN_SOLUTIONS":"Inovar nas Soluções",
+            "ACT_WITH_INTEGRITY":"Agir com Integridade"
+        },
+        
+        "BUTTONS":{
+            "BTN_DONATE":"Doar Estrela",
+            "BTN_RANKING":"Ranking",
+            "BTN_CANCEL":"Cancelar",
+            "BTN_CONTINUE":"Continuar",
+            "BTN_OK":"OK"
+         
+        },
+        
+        "LOADING_MSG":{
+            "LOAD_INFO":"Carregando uas informações"
+        },
+        
+        "INFO_MSG":{
+            "TITLE_ERROR":"Erro :(",
+            "SUB_TITLE_ERROR":"Voce Precisa estar logado",
+            "CHANGE_LANGUAGE":{
+                "TITLE":"Trocar Linguagem"
+            }
+        }
+    },
+    
+    "PAGE_HOME":{
+            "PAGE_TITLE":"",
+            "LABEL_ENTER":"Email",
+            "LABEL_PASSWORD":"Password",
+            "BTN_ESQUECI_SENHA":"Esqueci a minha senha",
+            "BTN_ENTRAR":"Entrar"
+    },
+    "PAGE_RANKING":{
+        "PAGE_TITLE":"Ranking",
+        "LABEL_BUSCA":"Buscar"
+
+    },
+    "PAGE_DOAR_ESTRELA":{
+        "PAGE_TITLE":"Doar Estrela",
+        "LABEL_BUSCA":"Buscar",
+        "LABEL_ESCOLHA":"Escolha o Pilar",
+        "MSG_DOAR":"Diga o porquê da estrela",
+        "PAGE_SUBTITLE":{
+            "TITLE_1":" Nossos Pacientes,",
+            "TITLE_2":"Nossas Estrela Guia"
+        },
+        "INFO_ERROR":{
+            "ERROR_SERVIDOR":{
+                "TITLE":"Ops!",
+                "BODY":"Ocorreu um erro ao enviar sua estrela, tente novamente.",
+                "BTN":"Entendi"
+            },
+            "ERROR_MSG":{
+                "TITLE":"Ops!",
+                "BODY":"Você deve preencher uma mensagem",    
+                "BTN":"Entendi"
+            }
+            
+        },
+        "INFO_SUCESSO":{
+            "TITLE":"Sucesso",
+            "BODY":"Estrela enviada com sucesso",
+            "BTN":"Entendi"
+        },
+        "INFO_PILAR":{
+            "SERVE_PATIENTS":"É colocar os pacientes no centro de nossas decisões. É procurar compreender a jornada de cada paciente,ajudando-o a encontrar respostas através de terapias transformadoras que mudam suas vidas. ",
+            "EMPOWERING_PEOPLE":"É acreditar, valorizar e respeitar. E promover a diversidade de pessoas e ideias. É colaboração multifuncional e transformar erros em uma oportunidade para aprender e melhorar.",
+            "INNOVATE_IN_SOLUTIONS":"É ter disciplina e foco para buscar soluções criativas  em todos os aspectos do trabalho.É calcular riscos e encorajar a experimentação.  É escuta opniões diversas  e abraçar novas ideias",
+            "ACT_WITH_INTEGRITY":"É fazer as coisas do jeito certo.Respeitando compliance e padrão de qualidade em tudo o que fazemos. É ser responsável pelo outro e contruir uma relação de confiança e credibilidade com todos."
+        }
+    },
+    "PAGE_ESTRELA_RECEBIDA":{
+        "PAGE_TITLE":"Doar Estrela",
+        "LABEL_SEM_ESTRELAS":"Sem Notificaçoes :("
+    }
+
+    
+} 
